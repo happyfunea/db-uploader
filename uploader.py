@@ -1,18 +1,14 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
+from time import sleep as mlor
+import sys, os, subprocess as a
 try:
 	from dropbox import *
-	import pathlib
-	import sys
-	import subprocess as a
-	import os
-	from time import sleep as mlor
 except:
+	
 	print 'Install Module!'
 	os.system('pip2 install dropbox')
 	print 'Module Dropbox Terinstall'
-	os.system('pip2 install pathlib')
-	print 'Module Pathlib Terinstall';sys.exit()
 class load:
 	def __init__(self):
 		b = ['...', '-', '/', '-', '/', '...']
