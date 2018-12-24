@@ -8,7 +8,5 @@ $git clone https://github.com/happyfunea/db-uploader <br>
 $cd db-uploader <br>
 $python2 uploader.py <br>
 
-# Thanks
-:)
-
-
+# INFO
+pindahkan file yang mau di upload ke directory folder db-uploader
