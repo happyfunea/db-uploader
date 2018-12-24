@@ -5,10 +5,17 @@ import sys, os, subprocess as a
 try:
 	from dropbox import *
 except:
-	
+	print 'Module dropbox not found!\n'
 	print 'Install Module!'
 	os.system('pip2 install dropbox')
 	print 'Module Dropbox Terinstall'
+try:
+	import pathlib
+except:
+	print 'Installing Module!\n'
+	os.system('pip2 install pathlib')
+	print 'module Terinstall!'
+	print 'jalankan program lagi';sys.exit()
 class load:
 	def __init__(self):
 		b = ['...', '-', '/', '-', '/', '...']
