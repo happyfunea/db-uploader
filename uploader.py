@@ -52,7 +52,6 @@ if __name__=='__main__':
 	a.call('clear', shell=True)
 	baner = '''    _---------------(DropBox File Uploader)---------------_
 \t\t        Author : Agung
-\t\t     Team : AeX407, CRABS
     -_______________(DropBox File Uploader)_______________-
 '''
 	print baner
